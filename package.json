@@ -13,9 +13,17 @@
   "keywords": [],
   "author": "",
   "license": "ISC",
-  "type": "commonjs",
+  "type": "module",
   "bugs": {
     "url": "https://github.com/smatsuodev/weather-mcp-server/issues"
   },
-  "homepage": "https://github.com/smatsuodev/weather-mcp-server#readme"
+  "homepage": "https://github.com/smatsuodev/weather-mcp-server#readme",
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.11.0",
+    "zod": "^3.24.3"
+  },
+  "devDependencies": {
+    "@types/node": "^22.15.3",
+    "typescript": "^5.8.3"
+  }
 }
